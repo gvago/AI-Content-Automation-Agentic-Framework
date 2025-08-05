@@ -46,11 +46,12 @@ I have a product launch next week - a new project management tool. Help me creat
 #### Social Media APIs (For Posting)
 3. **X (Twitter) API** - [X API Documentation](http://docs.x.com/x-api/introduction)
    ```
-   TWITTER_API_KEY=your_key
-   TWITTER_API_SECRET=your_secret
-   TWITTER_ACCESS_TOKEN=your_token
-   TWITTER_ACCESS_TOKEN_SECRET=your_token_secret
-   TWITTER_BEARER_TOKEN=your_bearer_token
+   # All 5 tokens required for full posting functionality
+   TWITTER_API_KEY=your_api_key                    # Consumer Key
+   TWITTER_API_SECRET=your_api_secret              # Consumer Secret  
+   TWITTER_ACCESS_TOKEN=your_access_token          # User Access Token
+   TWITTER_ACCESS_TOKEN_SECRET=your_access_secret  # User Access Secret
+   TWITTER_BEARER_TOKEN=your_bearer_token          # App Bearer Token
    ```
 
 4. **LinkedIn API** - [LinkedIn Developers](https://www.linkedin.com/developers/)

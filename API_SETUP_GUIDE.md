@@ -73,11 +73,22 @@ nano .env  # or vim, code, etc.
 #### X (Twitter) API Setup
 1. Apply for developer account at [X API Documentation](http://docs.x.com/x-api/introduction)
 2. Create a new app in your developer dashboard
-3. Generate the following keys:
-   - API Key and Secret (app-level)
-   - Access Token and Secret (user-level)
-   - Bearer Token (for API v2)
-4. Add all keys to your `.env` file
+3. Generate the following keys (ALL REQUIRED for posting functionality):
+
+   **Consumer Keys (identifies your app):**
+   - API Key → `TWITTER_API_KEY`
+   - API Secret → `TWITTER_API_SECRET`
+   
+   **Authentication Tokens (posting capability):**
+   - Access Token → `TWITTER_ACCESS_TOKEN`  
+   - Access Token Secret → `TWITTER_ACCESS_TOKEN_SECRET`
+   
+   **Bearer Token (read operations):**
+   - Bearer Token → `TWITTER_BEARER_TOKEN`
+
+4. Add all 5 keys to your `.env` file
+
+**Note**: For posting tweets, X API requires OAuth 1.0a authentication (Consumer Keys + Access Tokens). Bearer Token alone cannot post tweets but is useful for reading public data.
 
 #### LinkedIn API Setup
 1. Create a LinkedIn App at [linkedin.com/developers](https://www.linkedin.com/developers/)
