@@ -24,7 +24,7 @@ This guide helps you configure all the API keys and services required for your c
 #### Social Media Platforms
 | Platform | Required Keys | Purpose | Get Keys From |
 |----------|---------------|---------|---------------|
-| **X (Twitter)** | `TWITTER_API_KEY`<br>`TWITTER_API_SECRET`<br>`TWITTER_ACCESS_TOKEN`<br>`TWITTER_ACCESS_TOKEN_SECRET`<br>`TWITTER_BEARER_TOKEN` | Tweet posting and thread creation | [developer.twitter.com](https://developer.twitter.com/) |
+| **X (Twitter)** | `TWITTER_API_KEY`<br>`TWITTER_API_SECRET`<br>`TWITTER_ACCESS_TOKEN`<br>`TWITTER_ACCESS_TOKEN_SECRET`<br>`TWITTER_BEARER_TOKEN` | Tweet posting and thread creation | [X API Documentation](http://docs.x.com/x-api/introduction) |
 | **LinkedIn** | `LINKEDIN_ACCESS_TOKEN`<br>`LINKEDIN_CLIENT_ID`<br>`LINKEDIN_CLIENT_SECRET` | Professional content posting | [linkedin.com/developers](https://www.linkedin.com/developers/) |
 
 #### Email Marketing (Choose One)
@@ -71,7 +71,7 @@ nano .env  # or vim, code, etc.
 5. Add to `.env`: `FAL_AI_API_KEY=your_key_here`
 
 #### X (Twitter) API Setup
-1. Apply for developer account at [developer.twitter.com](https://developer.twitter.com/)
+1. Apply for developer account at [X API Documentation](http://docs.x.com/x-api/introduction)
 2. Create a new app in your developer dashboard
 3. Generate the following keys:
    - API Key and Secret (app-level)

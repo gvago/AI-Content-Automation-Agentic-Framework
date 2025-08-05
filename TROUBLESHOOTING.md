@@ -269,7 +269,7 @@ Use x-poster to create 5 Twitter threads about different aspects of email market
 
 **Common Rate Limits**:
 - **Anthropic Claude**: 60 requests/minute, 40,000 tokens/minute
-- **Twitter API**: 300 tweets per 3 hours, 50 requests per 15 minutes
+- **X API**: 300 tweets per 3 hours, 50 requests per 15 minutes
 - **LinkedIn API**: 500 requests per day
 - **Google Search API**: 100 requests per day (free tier)
 
@@ -278,7 +278,7 @@ Use x-poster to create 5 Twitter threads about different aspects of email market
 **Immediate Fixes**:
 ```bash
 # Wait for rate limit reset (check service documentation)
-# Twitter: 15-minute windows
+# X API: 15-minute windows
 # Most APIs: 1-hour reset periods
 ```
 
@@ -310,7 +310,7 @@ This minimizes API calls and stays within rate limits.
 **Immediate Actions**:
 1. **Check Service Status**:
    - Anthropic: [status.anthropic.com](https://status.anthropic.com)
-   - Twitter: [api.twitterstat.us](https://api.twitterstat.us)
+   - X API: [X API Status](https://status.developer.x.com/)
    - LinkedIn: LinkedIn Developer Status (check their documentation)
 
 2. **Use Alternative Services**:

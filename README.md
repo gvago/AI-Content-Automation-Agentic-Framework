@@ -89,7 +89,7 @@ Use content-research-analyst to research trending topics in fintech, then use co
 - **FAL.AI** - AI image and video generation
 
 ### Social Media Platforms
-- **Twitter/X** - Automated posting and thread creation
+- **X (Twitter)** - Automated posting and thread creation via [X API](http://docs.x.com/x-api/introduction)
 - **LinkedIn** - Professional content and article publishing
 
 ### Email Marketing

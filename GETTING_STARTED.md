@@ -44,7 +44,7 @@ I have a product launch next week - a new project management tool. Help me creat
    - Cost: ~$10-50/month depending on image generation volume
 
 #### Social Media APIs (For Posting)
-3. **Twitter/X API** - [Developer Portal](https://developer.twitter.com/)
+3. **X (Twitter) API** - [X API Documentation](http://docs.x.com/x-api/introduction)
    ```
    TWITTER_API_KEY=your_key
    TWITTER_API_SECRET=your_secret
